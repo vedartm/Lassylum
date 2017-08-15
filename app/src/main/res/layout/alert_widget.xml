@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:padding="@dimen/widget_margin">
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/widget_button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@drawable/ic_bell_on"-->
+        <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:contentDescription="@string/click_to_send_alert" />-->
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appwidget_text"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/appwidget_text"
+        android:background="#09C"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:text="SEND"/>
+
+</RelativeLayout>

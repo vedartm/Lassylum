@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lassylum</string>
+    <string name="GPSAlertDialogTitle">No GPS</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="click_to_send_alert">click_alert_text</string>
+</resources>
